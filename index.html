@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Blog dos Gatos: um projeto autoral com artigos, curadoria felina e design moderno para portfólio.">
+  <meta name="theme-color" content="#102126">
+
+  <title>Blog dos Gatos | Portfólio</title>
+
+  <meta property="og:title" content="Blog dos Gatos">
+  <meta property="og:description" content="Um blog felino com visual editorial, pronto para servir como projeto inicial de portfólio no Vercel.">
+  <meta property="og:type" content="website">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,700&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="./images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="page-bg" aria-hidden="true">
+    <span class="orb orb-a"></span>
+    <span class="orb orb-b"></span>
+    <span class="orb orb-c"></span>
+  </div>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#" aria-label="Ir para o topo da página">
+        <img src="./images/logo.svg" id="logo" alt="Logotipo do Blog dos Gatos">
+        <span>Blog dos Gatos</span>
+      </a>
+
+      <form class="search-form" role="search">
+        <label for="search">Pesquise por artigos</label>
+        <input type="search" id="search" placeholder="Pesquise por assuntos felinos">
+      </form>
+    </div>
+  </header>
+
+  <main class="container layout">
+    <article class="feature reveal" style="--delay: 0s;">
+      <p class="eyebrow">Especial da semana</p>
+
+      <img src="./images/image.main.svg" id="image-post" alt="Gato observando o horizonte ao pôr do sol">
+
+      <div class="feature-header">
+        <div>
+          <h1>Seriam os gatos astronautas?</h1>
+          <p class="meta">17 de março de 2026 • 6 min de leitura</p>
+        </div>
+
+        <div class="actions">
+          <button id="like" aria-label="Curtir artigo">
+            <img src="./images/button.like.svg" alt="">
+          </button>
+
+          <button id="dislike" aria-label="Não curtir artigo">
+            <img src="./images/button.dislike.svg" alt="">
+          </button>
+        </div>
+      </div>
+
+      <div class="post-copy">
+        <p>Os gatos são animais fascinantes e cercados de mistérios. De temperamento independente, esses felinos são conhecidos por sua agilidade, elegância e comportamento muitas vezes imprevisível. Nos últimos meses, uma teoria ganhou força na internet: e se os gatos fossem astronautas em missão?</p>
+        <p>A hipótese sugere que eles não seriam totalmente terrestres, mas observadores vindos de outro lugar para estudar nossos hábitos. Isso explicaria por que culturas antigas consideravam os gatos seres sagrados e os associavam a poderes divinos.</p>
+        <p>Alguns teóricos ainda defendem que os felinos percebem sinais que passam despercebidos para humanos. Reações a sons, luzes e padrões no céu seriam pistas de uma conexão cósmica. Pode soar conspiratório, mas é exatamente esse o charme de uma boa história felina.</p>
+      </div>
+    </article>
+
+    <aside class="sidebar">
+      <section class="panel reveal" style="--delay: .08s;">
+        <h2>Artigos relacionados</h2>
+
+        <div class="articles-grid">
+          <article class="article-card" style="--delay: .1s;">
+            <a class="article-card-link" target="_blank" rel="noopener noreferrer" href="https://www.petz.com.br/blog/comportamento/gato-preguicoso/">
+              <img src="./images/aside.1.png" alt="Gato na frente de uma parede verde">
+              <div class="details">
+                <h3>Sábado preguiçoso</h3>
+                <p>Ideias práticas para um fim de semana relax com seu gato.</p>
+              </div>
+            </a>
+          </article>
+
+          <article class="article-card" style="--delay: .2s;">
+            <a class="article-card-link" target="_blank" rel="noopener noreferrer" href="https://ofazedor.com/gatifique/cama-arranhador-balaio-de-gato-o-fazedor/">
+              <img src="./images/aside.2.png" alt="Quatro gatos dentro de um cesto">
+              <div class="details">
+                <h3>Balaio de gatos</h3>
+                <p>Como reduzir conflitos e melhorar a convivência entre felinos.</p>
+              </div>
+            </a>
+          </article>
+
+          <article class="article-card" style="--delay: .3s;">
+            <a class="article-card-link" target="_blank" rel="noopener noreferrer" href="https://www.zezelife.com/pt/do-cats-see-colors-what-colors-do-cats-like-most/">
+              <img src="./images/aside.3.png" alt="Gato em frente a parede com faixas coloridas">
+              <div class="details">
+                <h3>Cartela de cores</h3>
+                <p>Descubra tonalidades que enriquecem o ambiente do seu pet.</p>
+              </div>
+            </a>
+          </article>
+
+          <article class="article-card" style="--delay: .4s;">
+            <a class="article-card-link" target="_blank" rel="noopener noreferrer" href="https://www.petz.com.br/blog/bem-estar/gatos-sentem-frio/">
+              <img src="./images/aside.4.png" alt="Gato debaixo de cobertas">
+              <div class="details">
+                <h3>Os gatos sentem frio?</h3>
+                <p>Cuidados essenciais para dias de temperatura mais baixa.</p>
+              </div>
+            </a>
+          </article>
+
+          <article class="article-card" style="--delay: .5s;">
+            <a class="article-card-link" target="_blank" rel="noopener noreferrer" href="https://www.tiktok.com/@mafaldaemoacir/video/7328591421777218821">
+              <img src="./images/aside.5.png" alt="Gato Moacir em destaque">
+              <div class="details">
+                <h3>Conheça o Moacir</h3>
+                <p>A história de superação do gatinho da semana no blog.</p>
+              </div>
+            </a>
+          </article>
+        </div>
+      </section>
+
+      <section class="panel cta reveal" style="--delay: .16s;">
+        <h2>Projeto em evolução</h2>
+        <p>Este blog foi desenhado para portfólio: layout responsivo, hierarquia visual clara, tipografia editorial e desempenho leve para deploy rápido.</p>
+      </section>
+    </aside>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="footer-credit">
+        developed by
+        <a class="author-link footer-author" target="_blank" rel="noopener noreferrer" href="https://landing-page-roberto-luiz.vercel.app/">
+          <span>Roberto Luiz</span>
+        </a>
+        - 2026
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
